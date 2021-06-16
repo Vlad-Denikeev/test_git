@@ -413,6 +413,17 @@ footer .cs_footer {
   border: 1px solid #ffffff;
 }
 
+.box5_fla span {
+  color: red;
+  font-weight: bold;
+}
+
+.box5_fla h3 {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
 @media (max-width: 1200px) {
   .promo .title {
     font-size: 36px;
