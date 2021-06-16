@@ -320,8 +320,8 @@ footer .cs_footer {
 
 .box3_fla_text {
   margin-top: 40px;
+  color: black;
   font-size: 24px;
-  font-size-color: black;
   text-align: left;
 }
 
@@ -332,9 +332,9 @@ footer .cs_footer {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .slick-list {
@@ -356,13 +356,17 @@ footer .cs_footer {
 
 .box4_fla .slider {
   position: relative;
-  padding: 0 60px 30px;
+  padding: 23px 12px 30px;
+}
+
+.box4_fla .slider .slider_item {
+  text-align: center;
 }
 
 .box4_fla .slider .slick-arrow {
   position: absolute;
-  top: 50%;
-  margin-top: -30px;
+  top: 26%;
+  top-margin-top: -17px;
   z-index: 10;
   font-size: 0;
   width: 132px;
@@ -405,8 +409,8 @@ footer .cs_footer {
 }
 
 .box4_fla .slider .slick-dots .slick-active button {
-  background-color: transparent;
-  border: 1px solid #000000;
+  background-color: white;
+  border: 1px solid #ffffff;
 }
 
 @media (max-width: 1200px) {
