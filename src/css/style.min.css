@@ -435,17 +435,25 @@ footer .cs_footer {
 }
 
 .box6_fla_item {
-  background-color: white;
-  border: 4px double black;
-  border-radius: 7px;
-  -webkit-box-shadow: 10.5px 18.187px 46px 24px #000103;
-          box-shadow: 10.5px 18.187px 46px 24px #000103;
+  margin: 30px 5px 5px auto;
+  padding: 20px;
+  min-height: 250px;
+  -webkit-box-shadow: 0 0 10px 5px #dddddd;
+          box-shadow: 0 0 10px 5px #dddddd;
 }
 
 .box6_fla_item h4 {
+  padding-top: 14px;
   font-size: 24px;
   color: red;
   font-weight: bold;
+}
+
+.box6_fla_item p {
+  padding-top: 14px;
+  font-size: 24px;
+  color: black;
+  line-height: 1.2;
 }
 
 @media (max-width: 1200px) {
