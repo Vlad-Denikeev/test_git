@@ -424,6 +424,30 @@ footer .cs_footer {
   font-weight: bold;
 }
 
+.box6_fla {
+  margin-top: 30px;
+  min-height: 880px;
+}
+
+.box6_fla h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.box6_fla_item {
+  background-color: white;
+  border: 4px double black;
+  border-radius: 7px;
+  -webkit-box-shadow: 10.5px 18.187px 46px 24px #000103;
+          box-shadow: 10.5px 18.187px 46px 24px #000103;
+}
+
+.box6_fla_item h4 {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+}
+
 @media (max-width: 1200px) {
   .promo .title {
     font-size: 36px;
