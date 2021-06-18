@@ -366,7 +366,6 @@ footer .cs_footer {
 .box4_fla .slider .slick-arrow {
   position: absolute;
   top: 26%;
-  top-margin-top: -17px;
   z-index: 10;
   font-size: 0;
   width: 132px;
@@ -426,6 +425,7 @@ footer .cs_footer {
 
 .box6_fla {
   margin-top: 30px;
+  margin-bottom: 60px;
   min-height: 880px;
 }
 
@@ -454,6 +454,49 @@ footer .cs_footer {
   font-size: 24px;
   color: black;
   line-height: 1.2;
+}
+
+.box7_fla {
+  min-height: 606px;
+  background-color: black;
+}
+
+.box7_fla h3 {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 47px;
+}
+
+.box7_fla h3 span {
+  color: #f83c51;
+  font-weight: bold;
+}
+
+.box7_fla_redbox {
+  min-height: 350px;
+  background-color: #f83c51;
+}
+
+.box7_fla_redbox h4 {
+  font-size: 36px;
+  color: #fadede;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 49px;
+}
+
+.box7_fla_redbox h4 del {
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+}
+
+.box7_fla_redbox h5 {
+  font-size: 36px;
+  color: #fadede;
+  text-align: center;
+  padding-top: 100px;
 }
 
 @media (max-width: 1200px) {
