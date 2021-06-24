@@ -602,6 +602,15 @@ footer .cs_footer {
   footer {
     font: 1em sans-serif;
   }
+  .box5_fla h3 {
+    font-size: 27px;
+  }
+  .box7_fla h3 {
+    font-size: 25px;
+  }
+  .box8_fla .futter_btn {
+    width: 550px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -642,6 +651,32 @@ footer .cs_footer {
   footer {
     font: 1em sans-serif;
   }
+  .box1_fla iframe {
+    width: 100%;
+    width-height: 100%;
+  }
+  .box4_fla h3 {
+    font-size: 18px;
+  }
+  .box4_fla .slider .slick-arrow {
+    width: 55px;
+    height: 105px;
+    top: 40%;
+  }
+  .box5_fla h3 {
+    font-size: 0px;
+    -webkit-animation: none;
+            animation: none;
+  }
+  .box7_fla {
+    min-height: 450px;
+  }
+  .box7_fla h3 {
+    font-size: 18px;
+  }
+  .box7_fla_redbox {
+    min-height: 288px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -663,6 +698,25 @@ footer .cs_footer {
   }
   .box1_cs h1 {
     font-size: 34px;
+  }
+  .box1_fla_titleblock h1 {
+    font-size: 28px;
+  }
+  .box2_fla_avatar {
+    display: none;
+  }
+  .box5_fla img {
+    width: 100%;
+  }
+  .box8_fla .futter_btn {
+    width: 100%;
+    height: 100%;
+  }
+  .img_hedder_fla {
+    display: none;
+  }
+  .frontend_la_text_hedder {
+    font-size: 17px;
   }
 }
 /*# sourceMappingURL=style.min.css.map */
