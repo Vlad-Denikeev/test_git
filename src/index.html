@@ -12,6 +12,17 @@
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
 	<link rel="stylesheet" href="css/style.min.css">
+	<!-- MailerLite Universal -->
+	<script>
+	(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+	var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+	f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+	var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+	_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+	
+	var ml_account = ml('accounts', '3270820', 'l1o0n5o2l5', 'load');
+	</script>
+	<!-- End MailerLite Universal -->
 </head>
 <body>
 	<main>
@@ -40,10 +51,10 @@
 							<form action="email" id="email_form">
 								<h3 class="text_form">Введите ваш email ниже, <br>чтобы получить книгу прямо сейчас!
 								</h3>
-								<!-- <input type="email" class="email">
-								<h3 class="private_text">Мы уважаем вашу конфиденциальность<br>
-									и не рассылаем спам</h3>
-								<button>Получить сейчас!</button> -->
+								<div class="ml-form-embed"
+								data-account="3270820:l1o0n5o2l5"
+								data-form="4347466:w2w0c5">
+							  </div>
 							</form>
 						</div>
 					</div>

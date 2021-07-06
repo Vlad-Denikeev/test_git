@@ -96,7 +96,7 @@ header .menu_private a {
 
 .text_form {
   font-size: 24px;
-  font-family: "Tahoma";
+  font-family: "Tahoma"s;
   color: white;
   opacity: 0.8;
   text-align: center;
@@ -655,7 +655,6 @@ footer .cs_footer {
   }
   .box1_fla iframe {
     width: 100%;
-    width-height: 100%;
   }
   .box4_fla h3 {
     font-size: 18px;
