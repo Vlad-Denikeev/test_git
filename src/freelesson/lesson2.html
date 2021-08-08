@@ -21,15 +21,30 @@
 		<section class="box_lesson">
 			<div class="container box_lesson_bg">
 				<h1>
-					"Вы сошли со своих рельс!"
+					"А теперь вспомни кем ты был...!"
 				</h1>
 				<h2>
-					Видео-совет №2
+					Видео-совет №2:
 				</h2>
 
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ChFyBhctp84?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-				<a href="../frontend_love_addition.html"><button class="box_payment_btn" type="submit">Подробнее про курс</button></a>
+				<a id ="timer_button" href="../frontend_love_addition.html"></a>
+
+				<script>
+					var obj = document.getElementById('timer_button');
+					var timerFIG = 600; // Время в секундах, через которое появляется кнопка
+					var timer = setInterval("startTimer()",1000);
+
+
+					function startTimer() {
+						if(timerFIG !== 1) {
+							timerFIG--;
+						} else {
+							clearInterval(timer);
+							obj.innerHTML = '<button class="box_payment_btn" type="submit">Подробнее про курс</button>'; // кнопка
+					}}
+				</script>
 
 			</div>
 		</section>
