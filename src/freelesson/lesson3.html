@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Видео-совет №3</title>
+	<meta name="description" content="Вспомни о том, что ты жив и у тебя есть личные цели!">
+	<meta name="author" content="Влад Рафаэль">
+	<link rel="shortcut icon" href="../icons/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+	<link rel="stylesheet" href="../css/style.min.css">
+
+</head>
+<body>
+	<main>
+
+
+		<section class="box_lesson">
+			<div class="container box_lesson_bg">
+				<h1>
+					"Жизнь не закончилась! Настало время обновлений!"
+				</h1>
+				<h2>
+					Видео-совет №3:
+				</h2>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5jHQ1nW5teA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<script>
+					var obj = document.getElementById('timer_button');
+					var timerFIG = 600; // Время в секундах, через которое появляется кнопка
+					var timer = setInterval("startTimer()",1000);
+
+
+					function startTimer() {
+						if(timerFIG !== 1) {
+							timerFIG--;
+						} else {
+							clearInterval(timer);
+							obj.innerHTML = '<button class="box_payment_btn" type="submit">Подробнее про курс</button>'; // кнопка
+					}}
+				</script>
+
+			</div>
+		</section>
+		<footer>
+			<div class="container" src="/index.html">
+				<p>©2021 Влад Рафаэль. <a href="policy_privat.html">Политика приватности.</a> <br>
+					Тех. поддержка: vlad.rafael@yandex.ru</p>
+			</div>
+		</footer>
+		
+		
+		
+
+
+
+	</main>
+	
+</body>
+</html>
